@@ -22,10 +22,10 @@ global.mess = {
     endLimit: '`Your daily limit has expired, the limit will be reset every 12 hours`',
 }
 
-global.owner = [process.env.OWNER_NUMBER] || ['94711453097'] // Owner number , (අයිතිකරුගේ නම්බර් එක )
+global.owner = [process.env.OWNER_NUMBER] || ['94768966250'] // Owner number , (අයිතිකරුගේ නම්බර් එක )
 
 module.exports = {    
-SESSION_ID: process.env.SESSION_ID || 'youre session id',
+SESSION_ID: process.env.SESSION_ID || 'PRABATH-MD~hv8HACAR#Wrygb8Du_gw9J14_wTUfNmzFCFsUdhp40XxkJ9JFZGY',
 POSTGRESQL_URL: process.env.POSTGRESQL_URL || 'postgres://izumimd_meje_user:0Vhm5vKGZ7ORt2FlJBQf4d6EtRdeuE8z@dpg-cn0o2imn7f5s73fa46q0-a.frankfurt-postgres.render.com/izumimd_meje',
 PREFIX:  process.env.PREFIX || ['.'] ,
 LANG:  process.env.LANG || 'SI' ,    
@@ -33,7 +33,7 @@ ANTI_BAD: process.env.ANTI_BAD || false  ,
 AUTO_REACT:  process.env.AUTO_REACT  || false  ,    
 AUTO_TYPING:  process.env.AUTO_TYPING  || false  ,
 AUTO_RECORDING:  process.env.AUTO_RECORDING  || false  ,
-AUTO_READ:  process.env.AUTO_READ  || false  ,
+AUTO_READ:  process.env.AUTO_READ  || true  ,
 AUTO_BIO:  process.env.AUTO_BIO  || false  ,    
 ALWAYS_ONLINE:  process.env.ALWAYS_ONLINE  || false  ,            
 WORK_TYPE: process.env.WORK_TYPE || 'private'  ,
